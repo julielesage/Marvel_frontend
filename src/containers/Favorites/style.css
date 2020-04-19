@@ -1,0 +1,29 @@
+.deadpool {
+  width: 100%;
+  padding-top: 200px;
+  height: 400px;
+}
+
+.myfavorites {
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  height: 54px;
+  padding: 10px;
+  width: 536px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-left: -43px;
+}
+
+.favorites .loader,
+.fav-list {
+  padding: 200px 0 100px 0;
+}
+
+.favorites h2 {
+  font-size: 30px;
+}

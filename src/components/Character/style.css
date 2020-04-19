@@ -1,0 +1,46 @@
+.character-li {
+  width: 250px;
+  height: 400px;
+  background-color: #1f1f1f;
+  color: white;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.character-li > div:first-child {
+  overflow: hidden;
+  border-bottom: 1px solid red;
+}
+.character-li p {
+  overflow: hidden;
+  line-height: 20px;
+  padding: 0 15px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.character-li h2:hover {
+  color: red;
+  font-weight: 600;
+}
+.character-li img {
+  transition: transform 0.8s;
+}
+.character-li img:hover {
+  transform: scale(1.5);
+}
+
+.icon-star {
+  font-size: 28px;
+  position: absolute;
+  right: 20px;
+  bottom: 140px;
+  cursor: pointer;
+}
+
+.non-favorite {
+  text-shadow: 0 0 6px red;
+  color: #1f1f1f;
+}

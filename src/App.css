@@ -1,38 +1,251 @@
-.App {
-  text-align: center;
+:root {
+  --black: #191919;
+  --black-opa: rgba(0, 0, 0, 0.6);
+  --grey-text-input: #8593a1;
+  --grey-background-input: #f4f6f7;
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* COMMONS ***********/
+
+body {
+  background-color: #111111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  margin: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.window {
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+a,
+link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+form {
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+input,
+textarea {
+  border: 1px solid var(--grey-text-input);
+  font-size: 16px;
+  background-color: var(--grey-background-input);
+  height: 44px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px 0 10px 15px;
+}
+
+button {
+  height: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+.logo-box {
+  background-color: red;
+  width: 140px;
+  height: 60px;
+  display: flex;
+  padding: 5px;
+}
+
+.cover-top {
+  margin-top: -600px;
+  width: 100vw;
+}
+
+.top-space {
+  padding-top: 100px;
+}
+
+/* LOADER ***********************************  LOADER  ********************/
+
+.loader {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 20vh;
+}
+/* PRINCIPAL DIV */
+
+/* section {
+  margin-top: 70px;
+} */
+/* COLORS */
+.bg-red {
+  background-color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.red {
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grey {
+  color: grey;
+}
+
+.yellow {
+  color: yellow;
+}
+.light-blue {
+  color: rgb(162, 240, 243);
+}
+
+.light-blue:hover {
+  color: red;
+}
+
+.dark {
+  color: #1f1f1f;
+}
+
+/* FONTS*/
+
+h1 {
+  font-weight: bold;
+  font-size: 26px;
+  /* margin: 80px 0 40px 30px; */
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 15px 20px 15px;
+}
+
+h4 {
+  font-size: 18px;
+  padding: 20px 0 10px 0;
+  color: red;
+}
+
+p {
+  font-size: 14px;
+  padding: 0 15px 10px 15px;
+}
+
+.fs-12 {
+  font-size: 13px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+
+/* FLEX-BOX */
+
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned {
+  display: flex;
+  align-items: center;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* MARGIN/PADDING */
+
+.relative {
+  position: relative;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+.red-bordered {
+  border-bottom: 1px solid red;
+}
+
+.icon-times {
+  font-size: 20px;
+}
+
+.icon-star-comic {
+  font-size: 28px;
+  position: absolute;
+  left: 235px;
+  top: 35px;
+  cursor: pointer;
 }

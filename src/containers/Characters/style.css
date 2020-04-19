@@ -1,0 +1,29 @@
+.cover-img {
+  width: 100%;
+  margin-top: -200px;
+}
+
+/* PAGINATION ****************/
+
+.page-nav {
+  margin-top: 40px;
+}
+.page-nav > li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex: 1;
+  font-size: 20px;
+  text-align: center;
+}
+
+.page-nav > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}
+
+.extra-bold {
+  font-weight: bolder;
+  color: rgb(43, 43, 139);
+}
