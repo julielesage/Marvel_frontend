@@ -41,7 +41,7 @@ const OneHeroComics = ({
             <p> Loading...</p>
           </div>
         ) : (
-          <ul className="d-flex wrap">
+          <ul className="d-flex wrap column">
             {data.map((book, i) => {
               return (
                 <ComicBook
