@@ -36,9 +36,8 @@ const Characters = ({
 
   useEffect(() => {
     setShowModal(false);
-
+    setIsLoading(true);
     const fetchData = async () => {
-      setIsLoading(true);
       const response = await axios.get(
         `https://marvel-by-julie.herokuapp.com/characters?offset=${skipping}`
       );

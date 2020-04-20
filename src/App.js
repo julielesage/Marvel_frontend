@@ -139,7 +139,7 @@ function App() {
             removeFavorite={removeFavorite}
           />
         </Route>
-        <Route exact path="/comics_:page">
+        <Route exact path="/comics_:pageNumber">
           <Comics
             setShowModal={setShowModal}
             favorites={favorites}

@@ -27,7 +27,7 @@ const Header = ({ showModal, setShowModal, onLogin }) => {
                 <p>COMICS</p>
               </Link>
             </ul>
-            <div className="aligned mr-30">
+            <div className="aligned">
               <Link to="/myfavorites" className="aligned left relative mr-30">
                 <FontAwesomeIcon className="star" icon={["far", "star-half"]} />
                 <p>FAVORITES</p>

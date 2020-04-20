@@ -88,17 +88,16 @@ const Comics = ({
                 </ul>
               ) : (
                 <>
-                  <ul className="d-flex wrap">
+                  <ul className="column wrap">
                     {data.map((book, i) => {
                       return (
-                        <li key={book.id}>
-                          <ComicBook
-                            {...book}
-                            favorites={favorites}
-                            addFavorite={addFavorite}
-                            removeFavorite={removeFavorite}
-                          />
-                        </li>
+                        <ComicBook
+                          {...book}
+                          key={book.id}
+                          favorites={favorites}
+                          addFavorite={addFavorite}
+                          removeFavorite={removeFavorite}
+                        />
                       );
                     })}
                   </ul>
