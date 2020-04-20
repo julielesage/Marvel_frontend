@@ -16,9 +16,9 @@ web : https://nervous-banach-1483d9.netlify.app/
 **5 pages are availables :**  
    
 Sign_up   
-Characters(home)   + Pagination
+Characters(home)   + Pagination.  
 Comics + Pagination   
-OneHeroComics : all comics talking about this character
+OneHeroComics : all comics talking about this character.  
 Favorites : storage in Cookies
 
 -- plus 1 modal LogIn  
