@@ -1,10 +1,14 @@
-.hero-comics {
+.hero {
   padding-top: 100px;
 }
 
+.hero-comics {
+  flex: 1;
+}
 .hero-comics h1 {
   margin-bottom: 30px;
   padding: 10px;
+  margin-right: 20px;
 }
 
 /* COMICBOOK *****/
@@ -18,7 +22,7 @@
   display: flex;
   overflow: hidden;
   flex: 1;
-  margin: 10px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -48,12 +52,20 @@
   font-weight: bolder;
 }
 
-.description {
+.description p {
   font-size: 18px;
   color: #333333;
   line-height: 26px;
   padding: 16px;
 }
+
+.description {
+  height: 170px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-overflow: ellipsis;
+}
+
 .comic-li .space-between > div:last-child {
   margin-bottom: 40px;
   font-size: 18px;
@@ -62,4 +74,10 @@
 
 .comic-li p {
   color: #575656;
+}
+
+/* ASIDE TWEETS */
+
+aside {
+  width: 250px;
 }

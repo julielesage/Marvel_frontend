@@ -167,6 +167,10 @@ p {
   font-size: 30px;
 }
 
+.bold {
+  font-weight: "bold";
+}
+
 /* FLEX-BOX */
 
 .d-flex {
@@ -219,16 +223,23 @@ p {
   position: relative;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .mr-30 {
   margin-right: 30px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
 .mt-30 {
   margin-top: 30px;
-}
-
-.mb-20 {
-  margin-bottom: 20px;
 }
 
 .p-20 {

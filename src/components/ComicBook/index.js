@@ -54,10 +54,12 @@ const ComicBook = ({
           />
         </div>
       )}
-      <div classNam="space-between">
+      <div>
         <div>
           <h2>{title}</h2>
-          <p className="description">{description}</p>
+          <div className="description">
+            <p>{description}</p>
+          </div>
         </div>
         <div>
           <p>Pages : {pageCount}</p>
