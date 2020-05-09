@@ -1,69 +1,115 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Marvel fan website backend
 
-In the project directory, you can run:
+react full-stack project  
+<img src="https://j.gifs.com/6XNzjR.gif" width="100%" />
 
-### `yarn start`
+**Corresponding back :**
+github : https://github.com/julielesage/Marvel_frontend
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Corresponding web :**
+web : https://nervous-banach-1483d9.netlify.app/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## OVERVIEW
 
-### `yarn test`
+**5 pages are availables :**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sign_up  
+Characters(home) + Pagination.  
+Comics + Pagination  
+OneHeroComics : all comics talking about this character.  
+Favorites : storage in Cookies
 
-### `yarn build`
+-- plus 1 modal LogIn
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## PACKAGES
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [js-cookie](https://github.com/js-cookie/js-cookie)
+- [React Fortawesome](https://github.com/FortAwesome/react-fontawesome)
+- [Axios](https://github.com/axios/axios)
+- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+- [d3-shape/d3-scale/d3-format](https://github.com/d3)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Running the project
 
-### `yarn eject`
+Clone this repository :
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git clone https://github.com/julielesage/Marvel_frontend.git
+cd Marvel_frontend
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install packages :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+When installation is complete :
 
-## Learn More
+```bash
+npm start
+//or
+yarn start
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Marvel fan website backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+react full-stack project
+<img src="https://j.gifs.com/6XNzjR.gif" width="100%" />
 
-### Code Splitting
+**Corresponding back :**
+github : https://github.com/julielesage/Marvel_frontend
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+**Corresponding web :**
+web : https://nervous-banach-1483d9.netlify.app/
 
-### Analyzing the Bundle Size
+## OVERVIEW
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+**5 pages are availables :**
 
-### Making a Progressive Web App
+Sign_up
+Characters(home)   + Pagination.
+Comics + Pagination
+OneHeroComics : all comics talking about this character.
+Favorites : storage in Cookies
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+-- plus 1 modal LogIn
 
-### Advanced Configuration
+## PACKAGES
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [js-cookie](https://github.com/js-cookie/js-cookie)
+- [React Fortawesome](https://github.com/FortAwesome/react-fontawesome)
+- [Axios](https://github.com/axios/axios)
+- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Running the project
 
-### `yarn build` fails to minify
+Clone this repository :
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# Marvel_frontend
+```
+
+git clone https://github.com/julielesage/Marvel_frontend.git
+cd Marvel_frontend
+
+```
+
+Install packages :
+
+```
+
+npm install
+
+````
+
+When installation is complete :
+
+```bash
+npm start
+//or
+yarn start
+````
