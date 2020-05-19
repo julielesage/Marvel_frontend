@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
+
 import "./TwitterBox.css";
 
 const TwitterBox = ({ name }) => {
@@ -16,18 +18,14 @@ const TwitterBox = ({ name }) => {
   return (
     <div className="tweeter-box centered column aligned">
       <img src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" />
-      <p className="title">Latest Tweets about</p>
-      <p className="title mb-30">{name}</p>
-      {tweets ? (
-        {
-          /* tweets.map */
-        }
-      ) : (
-        <div className="centered aligned grey">
-          Waiting for Twitter authentification approval, will be updated as soon
-          as granted ...
-        </div>
-      )}
+      <p className="title">Latest Tweets from</p>
+      <p className="title mb-30">MARVEL</p>
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="Marvel"
+        options={{ height: 800 }}
+        noHeader="true"
+      />
     </div>
   );
 };
