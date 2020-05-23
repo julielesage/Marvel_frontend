@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 react full-stack project  
 <img src="https://j.gifs.com/6XNzjR.gif" width="100%" />
 
-**Corresponding back :**
+**Corresponding frontEnd :**
 github : https://github.com/julielesage/Marvel_frontend
 
 **Corresponding web :**
