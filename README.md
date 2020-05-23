@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Marvel fan website backend
+# Marvel fan website frontEnd
 
 react full-stack project  
 <img src="https://j.gifs.com/6XNzjR.gif" width="100%" />
 
-**Corresponding frontEnd :**
-github : https://github.com/julielesage/Marvel_frontend
+**Corresponding backEnd :**
+github : https://github.com/julielesage/Marvel_backend
 
 **Corresponding web :**
 web : https://nervous-banach-1483d9.netlify.app/
